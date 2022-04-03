@@ -9,7 +9,7 @@ package hibernate.beans;
  */
 public class ProfesorProyectoInvestigacion {
 
-	private String idProfesorProyectoInvestigacion;
+	private int idProfesorProyectoInvestigacion;
 	private String rol;
 	private String profesorNumeroEconomico;
 	private String proyectoInvestigacionIdProyectoInvestigacion;
@@ -24,7 +24,7 @@ public class ProfesorProyectoInvestigacion {
 	 * @param profesorNumeroEconomico
 	 * @param proyectoInvestigacionIdProyectoInvestigacion
 	 */
-	public ProfesorProyectoInvestigacion(String idProfesorProyectoInvestigacion, String rol,
+	public ProfesorProyectoInvestigacion(int idProfesorProyectoInvestigacion, String rol,
 			String profesorNumeroEconomico, String proyectoInvestigacionIdProyectoInvestigacion) {
 		super();
 		this.idProfesorProyectoInvestigacion = idProfesorProyectoInvestigacion;
@@ -36,7 +36,7 @@ public class ProfesorProyectoInvestigacion {
 	/**
 	 * @return the idProfesorProyectoInvestigacion
 	 */
-	public String getIdProfesorProyectoInvestigacion() {
+	public int getIdProfesorProyectoInvestigacion() {
 		return idProfesorProyectoInvestigacion;
 	}
 
@@ -44,7 +44,7 @@ public class ProfesorProyectoInvestigacion {
 	 * @param idProfesorProyectoInvestigacion the idProfesorProyectoInvestigacion to
 	 *                                        set
 	 */
-	public void setIdProfesorProyectoInvestigacion(String idProfesorProyectoInvestigacion) {
+	public void setIdProfesorProyectoInvestigacion(int idProfesorProyectoInvestigacion) {
 		this.idProfesorProyectoInvestigacion = idProfesorProyectoInvestigacion;
 	}
 

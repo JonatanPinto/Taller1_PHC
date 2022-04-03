@@ -13,7 +13,7 @@ public class Articulo {
 
 	private int idArticuloInvestigacion;
 	private String titulo;
-	private Date fecha_publicacion;
+	private Date fechaPublicacion;
 	private int puntos;
 	private String estado;
 	private String proyectoInvestigacionIdProyectoInvestigacion;
@@ -23,12 +23,12 @@ public class Articulo {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Articulo(int idArticuloInvestigacion, String titulo, Date fecha_publicacion, int puntos, String estado,
+	public Articulo(int idArticuloInvestigacion, String titulo, Date fechaPublicacion, int puntos, String estado,
 			String proyectoInvestigacionIdProyectoInvestigacion, String revista_isbn) {
 		super();
 		this.idArticuloInvestigacion = idArticuloInvestigacion;
 		this.titulo = titulo;
-		this.fecha_publicacion = fecha_publicacion;
+		this.fechaPublicacion = fechaPublicacion;
 		this.puntos = puntos;
 		this.estado = estado;
 		this.proyectoInvestigacionIdProyectoInvestigacion = proyectoInvestigacionIdProyectoInvestigacion;
@@ -66,15 +66,15 @@ public class Articulo {
 	/**
 	 * @return the fecha_publicacion
 	 */
-	public Date getFecha_publicacion() {
-		return fecha_publicacion;
+	public Date getFechaPublicacion() {
+		return fechaPublicacion;
 	}
 
 	/**
 	 * @param fecha_publicacion the fecha_publicacion to set
 	 */
-	public void setFecha_publicacion(Date fecha_publicacion) {
-		this.fecha_publicacion = fecha_publicacion;
+	public void setFechaPublicacion(Date fecha_publicacion) {
+		this.fechaPublicacion = fecha_publicacion;
 	}
 
 	/**
@@ -137,7 +137,7 @@ public class Articulo {
 
 	@Override
 	public String toString() {
-		return "Articulo= " + idArticuloInvestigacion + ", " + titulo + ", " + fecha_publicacion + ", " + puntos + ", "
+		return "Articulo= " + idArticuloInvestigacion + ", " + titulo + ", " + fechaPublicacion + ", " + puntos + ", "
 				+ estado + ", " + proyectoInvestigacionIdProyectoInvestigacion + ", " + revista_isbn;
 	}
 }
