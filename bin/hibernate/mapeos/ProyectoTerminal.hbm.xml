@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hibernate-mapping>
-	<class name="hibernate.beans.ProyectoTerminal" table="area">
+	<class name="hibernate.beans.ProyectoTerminal" table="proyecto_terminal">
 		<id name="idProyectoTerminal" column="id_proyecto_terminal" type="int" />
 		<property name="titulo" column="titulo" type="string" />
 		<property name="cantitadAlumnos" column="cantitad_alumnos" type="int" />
