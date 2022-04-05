@@ -19,6 +19,19 @@ public class ProfesorProyectoInvestigacion {
 	}
 
 	/**
+	 * @param rol
+	 * @param profesorNumeroEconomico
+	 * @param proyectoInvestigacionIdProyectoInvestigacion
+	 */
+	public ProfesorProyectoInvestigacion(String rol,
+			String profesorNumeroEconomico, String proyectoInvestigacionIdProyectoInvestigacion) {
+		this.idProfesorProyectoInvestigacion = 0;
+		this.rol = rol;
+		this.profesorNumeroEconomico = profesorNumeroEconomico;
+		this.proyectoInvestigacionIdProyectoInvestigacion = proyectoInvestigacionIdProyectoInvestigacion;
+	}
+	
+	/**
 	 * @param idProfesorProyectoInvestigacion
 	 * @param rol
 	 * @param profesorNumeroEconomico
