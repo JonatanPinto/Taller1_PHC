@@ -3,10 +3,6 @@
  */
 package hibernate.beans;
 
-/**
- * @author Jonatan
- *
- */
 public class ProyectoInvestigacion {
 
 	private String idProyectoInvestigacion;

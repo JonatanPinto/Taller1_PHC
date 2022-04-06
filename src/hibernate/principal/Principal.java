@@ -14,11 +14,6 @@ import hibernate.conexion.CrearConexion;
 import hibernate.operaciones.Inserciones;
 import utilities.TextReader;
 
-/**
- * 
- * @author Jonatan
- *
- */
 public class Principal {
 
 	public static void main(String[] args) {
@@ -49,7 +44,9 @@ public class Principal {
 	}
 
 	/**
+	 * 
 	 * @param data
+	 * @return Retorna el número de elementos agregados
 	 */
 	private static int cargarProfesorProyectos(ArrayList<String> data) {
 		Inserciones inserciones = new Inserciones();
@@ -64,7 +61,7 @@ public class Principal {
 
 	/**
 	 * @param data
-	 * @return 
+	 * @return Retorna el número de elementos agregados
 	 */
 	private static int cargarProyectos(ArrayList<String> data) {
 		Inserciones inserciones = new Inserciones();
@@ -78,7 +75,9 @@ public class Principal {
 	}
 
 	/**
-	 * @param read
+	 * 
+	 * @param data
+	 * @return Retorna el número de elementos agregados
 	 */
 	private static int cargarProfesores(ArrayList<String> data) {
 		Inserciones inserciones = new Inserciones();
@@ -94,7 +93,7 @@ public class Principal {
 	/**
 	 * 
 	 * @param data
-	 * @return 
+	 * @return Retorna el número de elementos agregados
 	 */
 	private static int cargarAreas(ArrayList<String> data) {
 		Inserciones inserciones = new Inserciones();

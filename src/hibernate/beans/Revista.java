@@ -3,10 +3,6 @@
  */
 package hibernate.beans;
 
-/**
- * @author Jonatan
- *
- */
 public class Revista {
 
 	private String isbn;

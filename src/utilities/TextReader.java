@@ -16,8 +16,10 @@ import java.util.ArrayList;
 public class TextReader {
 	
 	/**
-	 * @throws IOException 
 	 * 
+	 * @param path Ruta del archivo que se quiere leer
+	 * @return Retorna una lista de strings con las lineas de texto de un archivo segun la ruta
+	 * @throws IOException
 	 */
 	public static ArrayList<String> read(String path) throws IOException {
 		BufferedReader buffer = new BufferedReader(new FileReader(new File(path)));

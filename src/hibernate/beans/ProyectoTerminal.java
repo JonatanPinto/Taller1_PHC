@@ -5,10 +5,6 @@ package hibernate.beans;
 
 import java.util.Date;
 
-/**
- * @author Jonatan
- *
- */
 public class ProyectoTerminal {
 
 	private int idProyectoTerminal;
